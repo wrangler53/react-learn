@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Order = props => (
-    <div className="order">Order!!!</div>
-);
-
-export default Order;
+export default class Inventory extends React.Component {
+    render() {
+        return (
+            <div className="indentory">
+                
+            </div>
+        )
+    }
+}
